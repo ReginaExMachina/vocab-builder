@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+#Initializing the Words and Definitions Dictionaries
+w3Dict = {1: 'word1', 2: 'word2', 3: 'word3'}
+w3DictDef = {1: 'definition1', 2: 'defintion2', 3: 'definition3'}
+
+#MAIN FUNCTION - This displays a coupled selection of Words and Defs #randomnly
+
+n = len(w3Dict)
+
+#Should clone w3Dicts and add addtional lists for each go
+
+from random import randint
+word = randint(1,n)
+
+print w3Dict[word]  
+print w3DictDef[word]
+
+#Adds additional words and definitions to the double dictionaries
+def appendToDict(newWord, newDef):
+    '''
+    newWord: A string that the user wants to add to the program
+    newDef: A string that is the definition of the new word
+
+    Appends the new word with it’s definition in the coupled dictionaries so that it can  
+    be a part of the randomized entries
+    '''
+    w3Dict[n+1] = newWord
+    w3DictDef[n+1] = newDef
+
+#TESTING --- The Appending Function
+#appendToDict(‘radical’, ‘important things’)
+
+#print w3Dict
+#print w3DictDef
