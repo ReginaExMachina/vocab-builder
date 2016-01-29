@@ -23,6 +23,18 @@ alphaList = wordList.sort_by{|word| word.downcase}
 # PRINTING OUTPUT TO TEST OR COPYPASTE
 puts alphaList
 
+fname = "alphadict.txt"
+somefile = File.open(fname, "w")
+somefile.puts alphaList
+somefile.close
+
+
+#OUTS PUT A FILE
+#fname = "sample.txt"
+#somefile = File.open(fname, "w")
+#somefile.puts "Hello file!"
+#somefile.close
+
 
 
 =begin HELPFUL EXAMPLES
