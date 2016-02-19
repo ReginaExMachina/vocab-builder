@@ -1,4 +1,4 @@
-# ALPHASORT --- Sorting My Word List for me
+# Deprecated - ALPHASORT --- Sorting My Word List for me
 #
 # This program takes a word file (one per line) and outputs an alphabetized array for the dictionary
 # NOTE: For some reason doesn't make all the words downcase??? Need to fix this...
