@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+# Deprecated
 
 wordList = Hash.new
 
