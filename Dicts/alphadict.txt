@@ -126,7 +126,7 @@ Draconian
 dragoman
 dramaturge
 durance
-dclass
+dÅ½classÅ½
 ecclesiastical
 ecclesiastical
 ecdysiast
@@ -337,7 +337,7 @@ sibylline
 simian
 Sojourn
 soldered
-solfge
+solfÂge
 solicitude
 soliloquy
 somnambulist
