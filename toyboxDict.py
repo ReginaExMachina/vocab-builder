@@ -74,8 +74,8 @@ learnt_list_defs = {}
 
 # MAKING METHODS
 def word_display():
+          # while word not in d.keys() loop?
     word = randint(1,n)
-    #word = random.randrange(0, len(w3_dict))
 
     print w3_dict[word]
     print w3_defs[word]
