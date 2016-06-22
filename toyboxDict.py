@@ -58,6 +58,9 @@ from random import randint
 n = len(w3_dict) #May switch for randrange
 choice = ''
 
+learning_list = {}
+learning_list_defs = {}
+
 # MAKING METHODS
 def word_display():
     word = randint(1,n)
@@ -68,8 +71,11 @@ def word_display():
     learning_listed(word)
 
 def learning_listed(word):
-    learning_list = w3_dict.pop(word)
-    learning_defs_list = w3_defs.pop(word)
+    new_word = w3_dict.pop(word)
+    new_def = w3_defs.pop(word)
+    
+    learning_list.update({word: new_word})
+    learning_list_defs.update({word: new_def})
 
 
 print("W3")
