@@ -78,11 +78,20 @@ def learning_listed(word):
     learning_list_defs.update({word: new_def})
 
 
+# MAIN PROGRAM
 print("W3")
 print('Press E to Exit or any key to reload.\n')
 
-while choice != 'E':
-    
-    word_display()
-    choice = raw_input('\n ')
-    print(' ')
+if w3_dict:
+          
+          while choice != 'E':
+                    
+                    try:
+                              word_display()
+                              choice = raw_input('\n ')
+                              print(' ')
+                              
+                    except KeyError:
+                              print('Fetching...\n')
+else:
+                    print('All done!')
