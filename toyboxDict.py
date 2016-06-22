@@ -10,7 +10,7 @@
 
 # Returns random sets of a word from the list and it's definition.
 
-
+# DICTIONARIES *should be made into external file BECAUSE
 w3_dict = { 
           1: 'amorous',
           2: 'amorphous',
@@ -58,11 +58,16 @@ from random import randint
 n = len(w3_dict) #May switch for randrange
 choice = ''
 
+# Words to be re-displayed at algorithmic intervals until learnt
+# * currently useless haha *
 learning_list = {}
 learning_list_defs = {}
 
+# Words no longer needing to be displayed
+# * currently even more useless ;_; *
 learnt_list = {}
 learnt_list_defs = {}
+
 
 # MAKING METHODS
 def word_display():
@@ -95,6 +100,8 @@ if w3_dict:
                               print(' ')
                               
                     except KeyError:
+                              # Random integer is removed key
                               print('Fetching...\n')
 else:
+                    # Main dictionary is emptied!
                     print('All done!')
