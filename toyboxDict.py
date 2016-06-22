@@ -61,6 +61,9 @@ choice = ''
 learning_list = {}
 learning_list_defs = {}
 
+learnt_list = {}
+learnt_list_defs = {}
+
 # MAKING METHODS
 def word_display():
     word = randint(1,n)
