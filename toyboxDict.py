@@ -64,12 +64,12 @@ def word_display():
     #word = random.randrange(0, len(w3_dict))
 
     print w3_dict[word]
-    print w3_def[word]
+    print w3_defs[word]
     learning_listed(word)
 
 def learning_listed(word):
     learning_list = w3_dict.pop(word)
-    learning_defs_list = w3_def.pop(word)
+    learning_defs_list = w3_defs.pop(word)
 
 
 print("W3")
