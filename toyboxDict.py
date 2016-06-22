@@ -1,4 +1,4 @@
-# Public: Toybox verison of w3 program
+# Public: Toybox verison of W3 program.
 #
 # w3_dict - dictionary of interesting words.
 # w3_defs - dictionary of definitions.
