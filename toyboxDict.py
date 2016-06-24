@@ -87,6 +87,10 @@ def learning_listed(word):
     
     learning_list.update({word: new_word})
     learning_list_defs.update({word: new_def})
+    
+def learning_time():
+          '''Outputs words from learning_list or returns false'''
+
 
 
 # MAIN PROGRAM
