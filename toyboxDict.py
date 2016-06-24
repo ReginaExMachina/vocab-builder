@@ -74,6 +74,7 @@ learnt_list_defs = {}
 
 # MAKING METHODS
 def word_display():
+          """ """
           # while word not in d.keys() loop?
     word = randint(1,n)
 
@@ -82,6 +83,7 @@ def word_display():
     learning_listed(word)
 
 def learning_listed(word):
+          """ """
     new_word = w3_dict.pop(word)
     new_def = w3_defs.pop(word)
     
@@ -89,7 +91,7 @@ def learning_listed(word):
     learning_list_defs.update({word: new_def})
     
 def learning_time():
-          '''Outputs words from learning_list or returns false'''
+          """Outputs words from learning_list or returns false"""
 
 
 
