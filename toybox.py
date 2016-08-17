@@ -55,7 +55,7 @@ w3_defs = {
     }
 
 ##########################################################################
-    
+
 from random import randint
 
 ##########################################################################
@@ -83,14 +83,14 @@ def word_display():
     print w3_dict[word]
     print w3_defs[word]
     learning_listed(word)
-    
+
 
 def learning_listed(word):
     new_word = w3_dict.pop(word)
     new_def = w3_defs.pop(word)
     learning_list.update({word: new_word})
     learning_list_defs.update({word: new_def})
-    
+
 def learning_time():
     """Outputs words from learning_list or returns false"""
 
@@ -107,7 +107,7 @@ if w3_dict:
             choice = raw_input('\n ')
             print(' ')
         except KeyError:
-            # Random integer is removed key
+            # Random integer is a removed key
             print('Fetching...\n')
 else:
     # Main dictionary is emptied!
