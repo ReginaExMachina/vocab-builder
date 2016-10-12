@@ -8,7 +8,7 @@
 # word_display() - Displays a randomly generated word and its definition.
 # learning_listed - Removes displayed word from main list.
 
-# Returns random sets of a word from the list and it's definition.
+# Returns random sets of a word and it's definition.
 
 ##########################################################################
 
