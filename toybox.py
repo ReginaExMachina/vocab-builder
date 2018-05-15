@@ -107,7 +107,7 @@ if w3_dict:
             choice = raw_input('\n ')
             print(' ')
         except KeyError:
-            # Random integer is a removed key
+            # Random integer is a removed key --- why is this here?
             print('Fetching...\n')
 else:
     # Main dictionary is emptied!
