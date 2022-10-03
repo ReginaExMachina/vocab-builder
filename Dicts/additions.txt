@@ -27,3 +27,4 @@ palimpsest
 securocrats
 functionaries
 commentariat
+marmoreal
